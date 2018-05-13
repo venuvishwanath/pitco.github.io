@@ -1,3 +1,7 @@
 my name is venu
 my bsffdddddgdf
+<<<<<<< HEAD
 vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+=======
+fffffffffffffffffffffffffffffffffffffffffffffffffffffff
+>>>>>>> 07b36235adcb4940fc7d3a36ef55d7ec2b4b8e7b
