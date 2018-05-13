@@ -34,6 +34,7 @@
             this.btnAddItem = new System.Windows.Forms.Button();
             this.btnRemoveItem = new System.Windows.Forms.Button();
             this.btnPrintReciept = new System.Windows.Forms.Button();
+            this.time_lbl = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // listBox1
@@ -57,9 +58,9 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(354, 24);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(71, 13);
+            this.label1.Size = new System.Drawing.Size(73, 13);
             this.label1.TabIndex = 4;
-            this.label1.Text = "Equipment ID";
+            this.label1.Text = "Serial Number";
             // 
             // btnAddItem
             // 
@@ -91,11 +92,21 @@
             this.btnPrintReciept.UseVisualStyleBackColor = true;
             this.btnPrintReciept.Click += new System.EventHandler(this.btnPrintReciept_Click_1);
             // 
+            // time_lbl
+            // 
+            this.time_lbl.AutoSize = true;
+            this.time_lbl.Location = new System.Drawing.Point(51, 373);
+            this.time_lbl.Name = "time_lbl";
+            this.time_lbl.Size = new System.Drawing.Size(35, 13);
+            this.time_lbl.TabIndex = 9;
+            this.time_lbl.Text = "label2";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(655, 413);
+            this.Controls.Add(this.time_lbl);
             this.Controls.Add(this.btnPrintReciept);
             this.Controls.Add(this.btnRemoveItem);
             this.Controls.Add(this.btnAddItem);
@@ -103,7 +114,8 @@
             this.Controls.Add(this.txtName);
             this.Controls.Add(this.listBox1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "date";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -117,6 +129,7 @@
         private System.Windows.Forms.Button btnAddItem;
         private System.Windows.Forms.Button btnRemoveItem;
         private System.Windows.Forms.Button btnPrintReciept;
+        private System.Windows.Forms.Label time_lbl;
     }
 }
 

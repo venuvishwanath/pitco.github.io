@@ -19,6 +19,8 @@ namespace Reciept_Print_Test
             InitializeComponent();
             txtName.Focus();
             label1.Font = new Font("Arial", 16);
+            DateTime datetime = DateTime.Now;
+            time_lbl.Text = datetime.ToString();
         }
         
 
@@ -26,6 +28,7 @@ namespace Reciept_Print_Test
         {
             listBox1.Items.Add(txtName.Text.PadRight(30)); // + txtPrice.Text);
             txtName.Text = "";
+            txtName.Focus();
            //txtPrice.Text = "";
         }
         //private void btnAddItem_Click_1(object sender, EventArgs e)
@@ -39,6 +42,7 @@ namespace Reciept_Print_Test
             try
             {
                 listBox1.Items.RemoveAt(listBox1.SelectedIndex);
+                txtName.Focus();
             }
             catch (Exception)
             {
@@ -88,7 +92,9 @@ namespace Reciept_Print_Test
             int offset = 40;
 
             graphic.DrawString("COMMUNICATIONS CENTRAL STORES", new Font("Courier New", 20), new SolidBrush(Color.Black), startX, startY);
-            string top = "Equipment ID".PadLeft(20);// +"Price";
+            offset = offset + (int)fontHeight + 5;
+            graphic.DrawString("Date :" + time_lbl.Text, new Font("Courier New", 10), new SolidBrush(Color.Black), startX + offset, startY+40 );
+            string top = "Manpack Serial Number".PadLeft(20);// +"Price";
             graphic.DrawString(top, font, new SolidBrush(Color.Black), startX, startY + offset);
             offset = offset + (int)fontHeight; //make the spacing consistent
             graphic.DrawString("================================", font, new SolidBrush(Color.Black), startX, startY + offset);
@@ -145,6 +151,11 @@ namespace Reciept_Print_Test
             graphic.DrawString("     Thank-you ", font, new SolidBrush(Color.Black), startX, startY + offset);
             offset = offset + 15;
            
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
 
         }
 
