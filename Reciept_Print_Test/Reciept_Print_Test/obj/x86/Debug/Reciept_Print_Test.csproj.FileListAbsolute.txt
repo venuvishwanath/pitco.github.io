@@ -1,0 +1,7 @@
+c:\users\chintu\documents\visual studio 2010\Projects\Reciept_Print_Test\Reciept_Print_Test\obj\x86\Debug\Reciept_Print_Test.Form1.resources
+c:\users\chintu\documents\visual studio 2010\Projects\Reciept_Print_Test\Reciept_Print_Test\obj\x86\Debug\Reciept_Print_Test.Properties.Resources.resources
+c:\users\chintu\documents\visual studio 2010\Projects\Reciept_Print_Test\Reciept_Print_Test\obj\x86\Debug\Reciept_Print_Test.csproj.GenerateResource.Cache
+c:\users\chintu\documents\visual studio 2010\Projects\Reciept_Print_Test\Reciept_Print_Test\bin\Debug\Reciept_Print_Test.exe
+c:\users\chintu\documents\visual studio 2010\Projects\Reciept_Print_Test\Reciept_Print_Test\bin\Debug\Reciept_Print_Test.pdb
+c:\users\chintu\documents\visual studio 2010\Projects\Reciept_Print_Test\Reciept_Print_Test\obj\x86\Debug\Reciept_Print_Test.exe
+c:\users\chintu\documents\visual studio 2010\Projects\Reciept_Print_Test\Reciept_Print_Test\obj\x86\Debug\Reciept_Print_Test.pdb
