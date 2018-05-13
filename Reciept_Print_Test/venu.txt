@@ -1,6 +1,10 @@
 venu
 <<<<<<< HEAD
+<<<<<<< HEAD
 chanti
+=======
+uma
+>>>>>>> c95bc67fa54928315af7f087ec1894ffdd30d6a8
 =======
 uma
 >>>>>>> c95bc67fa54928315af7f087ec1894ffdd30d6a8
